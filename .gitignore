@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Datasets & Large Files (DO NOT UPLOAD THESE)
+data/raw/
+data/processed/
+*.zip
+*.tar.gz
+
+# Model Weights (GitHub blocks files over 100MB)
+src/models/*.pth
+src/models/*.pt
+src/models/*.pth.tar
+*.weights
+*.onnx
+
+# Temporary App Files
+temp_overlay_*.jpg
+*.log
+.temp/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
