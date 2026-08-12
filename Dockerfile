@@ -6,7 +6,7 @@ WORKDIR /app
 
 # Install system dependencies required for OpenCV (libgl1, libglib2.0) and other geospatial libraries
 RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \
+    libgl1 \
     libglib2.0-0 \
     gcc \
     python3-dev \
