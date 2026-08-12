@@ -12,10 +12,11 @@ Since you don't have Docker on your laptop, you need to install it first.
 1. **Download Docker Desktop:**
    - Go to the official Docker website: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
    - Click **Download for Windows** (or Mac/Linux depending on your system).
-2. **Install and Run:**
-   - Run the installer you just downloaded. Leave the default settings (it will likely recommend using the WSL 2 backend on Windows, which is great).
-   - Once installed, open the **Docker Desktop** application from your start menu. 
-   - *Note: Docker Desktop must be running in the background for you to use Docker commands!*
+2. **Install and Run (Important Note for Windows Users):**
+   - Run the installer you just downloaded. Ensure the option to **"Use WSL 2 instead of Hyper-V"** is checked (this is usually the default).
+   - *Note on Permissions:* When you first launch Docker Desktop, Windows might ask you to install the **WSL 2 (Windows Subsystem for Linux)** kernel update or prompt you for Administrator permissions to enable it. **Yes, you must grant this permission/install WSL 2** for Docker to work on Windows!
+   - Once installed and permissions are granted, open the **Docker Desktop** application from your start menu.
+   - *Note: Docker Desktop must be running in the background (you will see a whale icon in your taskbar) for you to use Docker commands!*
 
 ---
 
