@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv/
+
+# Ignore massive training dataset and local raw images
+training_files.zip
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore Streamlit cache and local OS files
+.streamlit/
+.DS_Store
+Thumbs.db
